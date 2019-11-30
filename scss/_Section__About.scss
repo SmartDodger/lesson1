@@ -19,12 +19,14 @@
 .S_about_title {
   width: 540px;
   margin-top: 37px;
+  margin-left: 15px;
   @extend %big-title;
 }
 
 .S_about_paragrapgh_top,
 .S_about_paragrapgh_bottom {
   width: 445px;
+  margin-left: 15px;
   margin-right: 95px;
   @extend %paragrapgh-text;
 }
@@ -67,4 +69,23 @@
 .S_about_worker_job {
   margin-top: 6px;
   @extend %paragrapgh-text;
+}
+
+@media screen and (max-width: 1199px) {
+  .S_about_img {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+}
+
+
+@media screen and (max-width: 320px) {
+
 }
